@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.traducaoIcon{
+  width: 50px;
+  height: 50px;
+  opacity: 75%;
+  transition: 0.5s;
+}
+.traducaoIcon:hover{
+  opacity: 100%;
+}
+.navBarHeader{
+  background: linear-gradient(to right,#2b2fff,#282beb,#2325d9 ,#1b1eb5);
+  display: flex;
+}
+.infoAcimadoNome{
+  color: white;
+  font-size: 40px;
+  font-family: Kanit, Arial, Helvetica, sans-serif;
+  font-weight: 590;
+  text-align: start;
+  line-height: 1;
+}
+header{
+  margin: 0;
+  height: 0;
+  padding: 0;
+}
+section{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+.informaçãoPrincipal{
+  width: auto;
+  min-height: 100vh;
+  background: linear-gradient(to right,#2b2fff,#282beb,#2325d9 ,#1b1eb5);
+}
+.nomeEstampadoMeio{
+  color: white;
+  font-size: 100px;
+  font-family: Kanit, Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-align: start;
+  line-height: 0.95;
+}
+.abaixoNomeMeio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.inforAbaixodoNome{
+  line-height: 1.35;
+  font-size: 20px;
+  font-weight: 550;
+  font-family: Kanit, Arial, Helvetica, sans-serif;
+  color: white;
+}
+.itemLogo{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.item{
+  width: 64px;
+  height: 64px;
+} 
