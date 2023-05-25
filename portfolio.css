@@ -69,3 +69,68 @@ section{
   width: 64px;
   height: 64px;
 } 
+/* responsividade 620px */
+
+@media(max-width: 560px){
+  @media (max-width: 560px) {
+    .traducaoIcon {
+      width: 40px;
+      height: 40px;
+      opacity: 75%;
+      transition: 0.5s;
+    }
+    
+    .navBarHeader {
+      flex-direction: column;
+    }
+    
+    .infoAcimadoNome {
+      font-size: 40px;
+    }
+    
+    .nomeEstampadoMeio {
+      font-size: 70px;
+    }
+    
+    .inforAbaixodoNome {
+      font-size: 16px;
+    }
+    
+    .item {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+}
+@media (max-width: 390px) {
+  .traducaoIcon {
+    width: 40px;
+    height: 40px;
+    opacity: 75%;
+    transition: 0.5s;
+    }
+  
+  .infoAcimadoNome {
+    font-size: 22px;
+    }
+  
+  .nomeEstampadoMeio {
+    font-size: 55px;
+  }
+  
+  .inforAbaixodoNome {
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .item {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+
