@@ -69,9 +69,7 @@ section{
   width: 64px;
   height: 64px;
 } 
-/* responsividade 620px */
 
-@media(max-width: 560px){
   @media (max-width: 560px) {
     .traducaoIcon {
       width: 40px;
@@ -101,8 +99,7 @@ section{
       height: 40px;
     }
   }
-  
-}
+
 @media (max-width: 390px) {
   .traducaoIcon {
     width: 40px;
