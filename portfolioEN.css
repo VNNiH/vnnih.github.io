@@ -71,3 +71,32 @@ section{
   width: 64px;
   height: 64px;
 } 
+@media (max-width: 560px) {
+  .traducaoIcon {
+    width: 40px;
+    height: 40px;
+    opacity: 75%;
+    transition: 0.5s;
+  }
+  
+  .navBarHeader {
+    flex-direction: column;
+  }
+  
+  .infoAcimadoNome {
+    font-size: 40px;
+  }
+  
+  .nomeEstampadoMeio {
+    font-size: 70px;
+  }
+  
+  .inforAbaixodoNome {
+    font-size: 16px;
+  }
+  
+  .item {
+    width: 40px;
+    height: 40px;
+  }
+}
